@@ -1,0 +1,17 @@
+{
+    "name": "mzainquy/membuat-library-composer",
+    "description": "belajar membuat library",
+    "type": "library",
+    "authors": [{
+        "name": "muhammadzainquroisy",
+        "email": "muhammadzainquroisy@smkwikrama.sch.id"
+    }],
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mzainquy\\Belajar\\": "src/"
+        }
+    }
+}
